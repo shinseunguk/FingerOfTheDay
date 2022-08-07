@@ -13,6 +13,7 @@
 		A2113BE5289FB9AC00F37A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE3289FB9AC00F37A44 /* Main.storyboard */; };
 		A2113BE7289FB9AF00F37A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE6289FB9AF00F37A44 /* Assets.xcassets */; };
 		A2113BEA289FB9AF00F37A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE8289FB9AF00F37A44 /* LaunchScreen.storyboard */; };
+		A2B8B72F289FFB19006D2E5B /* space.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A2B8B72E289FFB19006D2E5B /* space.jpeg */; };
 		A2FFCF2A289FC260005D6538 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFCF29289FC260005D6538 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A2113BE6289FB9AF00F37A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2113BE9289FB9AF00F37A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2113BEB289FB9AF00F37A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B8B72E289FFB19006D2E5B /* space.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpeg; sourceTree = "<group>"; };
 		A2FFCF29289FC260005D6538 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		A2113BDC289FB9AC00F37A44 /* FingerOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
+				A2B8B72D289FF325006D2E5B /* asset */,
 				A2FFCF28289FC206005D6538 /* Helper */,
 				A2113BE1289FB9AC00F37A44 /* ViewController.swift */,
 				A2113BE3289FB9AC00F37A44 /* Main.storyboard */,
@@ -66,6 +69,14 @@
 				A2113BEB289FB9AF00F37A44 /* Info.plist */,
 			);
 			path = FingerOfTheDay;
+			sourceTree = "<group>";
+		};
+		A2B8B72D289FF325006D2E5B /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8B72E289FFB19006D2E5B /* space.jpeg */,
+			);
+			path = asset;
 			sourceTree = "<group>";
 		};
 		A2FFCF28289FC206005D6538 /* Helper */ = {
@@ -138,6 +149,7 @@
 			files = (
 				A2113BEA289FB9AF00F37A44 /* LaunchScreen.storyboard in Resources */,
 				A2113BE7289FB9AF00F37A44 /* Assets.xcassets in Resources */,
+				A2B8B72F289FFB19006D2E5B /* space.jpeg in Resources */,
 				A2113BE5289FB9AC00F37A44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

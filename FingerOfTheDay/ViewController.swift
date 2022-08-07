@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  FingerOfTheDay
 //
-//  Created by ukBook on 2022/08/07.
+//  Created by ukBook on 2022/08/07..
 //
 
 // 롱프레스 및 햅틱진동 구현하기

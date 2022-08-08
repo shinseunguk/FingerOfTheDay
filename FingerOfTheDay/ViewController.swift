@@ -39,6 +39,9 @@ class ViewController: UIViewController {
                 return
       }
 
-
+    @IBAction func tapGesture(_ sender: Any) {
+        print("dd")
+    }
+    
 }
 

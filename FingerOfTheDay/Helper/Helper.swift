@@ -94,7 +94,7 @@ extension TGPDiscreteSlider {
         )
     }
 
-    func fadeOut(_ duration: TimeInterval? = 0.5, onCompletion: (() -> Void)? = nil) {
+    func fadeOut(_ duration: TimeInterval? = 0.3, onCompletion: (() -> Void)? = nil) {
         UIView.animate(withDuration: duration!,
                        animations: { self.alpha = 0 },
                        completion: { (value: Bool) in

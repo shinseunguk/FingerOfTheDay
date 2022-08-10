@@ -20,6 +20,7 @@ import TGPControls
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var centerLabel: UILabel!
     let helper : Helper = Helper()
     
     // 터치 할수있는 수
@@ -73,29 +74,42 @@ class ViewController: UIViewController {
     
     // 터치가 시작될 때 호출
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        centerLabel.fadeOut()
+        oneTo10Labels.fadeOut()
+        oneTo10Slider.fadeOut()
         // 현재 발생한 터치 이벤트를 가지고 옴
         let touchCount = touches.count
         let touch = touches.first! as UITouch
         let tapCount = touch.tapCount
         
-        print("\(touchCount) touches")
-        print("\(tapCount) taps")
+        print("touchesBegan \(touchCount) touches")
+        print("touchesBegan \(tapCount) taps")
+        
+//        print("fingerCount ", fingerCount)
     }
 
     // 터치된 손가락이 움직였을 때 호출
-//    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        let touch = touches.first! as UITouch
-//
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let touchCount = touches.count
+        let touch = touches.first! as UITouch
+        let tapCount = touch.tapCount
+        
+        print("touchesMoved \(touchCount) touches")
+        print("touchesMoved \(tapCount) taps")
+        
 //        print("Touches Moved ", String(touches.count))
-//    }
+    }
 
     // 화면에서 손가락을 떼엇을 때 호출
-//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        centerLabel.fadeIn()
+        oneTo10Labels.fadeIn()
+        oneTo10Slider.fadeIn()
 //        let touch = touches.first! as UITouch
 //
 //        print("Touches Ended tapCount", String(touch.tapCount))
 //        print("Touches Ended ", String(touches.count))
-//    }
+    }
     
     @objc func valueChanged(_ sender: TGPDiscreteSlider, event:UIEvent) {
         print(Int(sender.value)+2)

@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,7 +43,7 @@
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="upFontColor">
-                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="tintColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="downFontColor">
                                         <color key="value" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,7 +53,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zng-bP-qCu" userLabel="oneTo10Slider" customClass="TGPDiscreteSlider" customModule="TGPControls">
                                 <rect key="frame" x="20" y="98" width="230" height="44"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="tintColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ae5-97-ufP"/>
                                     <constraint firstAttribute="width" constant="230" id="yJS-PJ-xjg"/>
@@ -84,17 +85,26 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="터치하여 시작해주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1l1-cm-KbD">
+                                <rect key="frame" x="131" y="437.5" width="152" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="1l1-cm-KbD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PT4-Lj-241"/>
                             <constraint firstItem="zng-bP-qCu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c1d-2I-P8s"/>
                             <constraint firstItem="zng-bP-qCu" firstAttribute="top" secondItem="w6L-5i-4hc" secondAttribute="bottom" constant="-8" id="c5z-xA-HD0"/>
                             <constraint firstItem="w6L-5i-4hc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="pP0-Lm-YbP"/>
                             <constraint firstItem="w6L-5i-4hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sjQ-rT-4va"/>
+                            <constraint firstItem="1l1-cm-KbD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yXy-CW-mEv"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="centerLabel" destination="1l1-cm-KbD" id="Pq7-c3-EgD"/>
                         <outlet property="oneTo10Labels" destination="w6L-5i-4hc" id="TYk-uW-G1e"/>
                         <outlet property="oneTo10Slider" destination="zng-bP-qCu" id="UQL-qm-H8w"/>
                         <outlet property="uiView" destination="8bC-Xf-vdC" id="VlT-QV-OXw"/>
@@ -110,4 +120,9 @@
             <point key="canvasLocation" x="10" y="48"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -14,7 +14,7 @@
 // TGP Control
 // https://github.com/SwiftArchitect/TGPControls
 
-// 그리는 앱 만들기 => 참고 할 것
+// 그리는 앱 만들기 => 참고 할 것!
 // https://bite-sized-learning.tistory.com/507
 
 import UIKit

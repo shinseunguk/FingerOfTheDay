@@ -84,9 +84,12 @@ class ViewController: UIViewController {
         let touchCount = touches.count
         let touch = touches.first! as UITouch
         let tapCount = touch.tapCount
+        let point = touch.location(in: touch.view)
         
         print("touchesBegan \(touchCount) touches")
         print("touchesBegan \(tapCount) taps")
+        print("touchesBegan \(point) taps")
+        
         
 //        print("fingerCount ", fingerCount)
     }

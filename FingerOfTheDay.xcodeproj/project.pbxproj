@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		04D9F05228A24C6D007807B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F05428A24C6D007807B9 /* Localizable.strings */; };
+		233794E50B76C76B55C3792A /* Pods_FingerOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05C31ECFC0E7FCBD2123AB5 /* Pods_FingerOfTheDay.framework */; };
 		A2113BDE289FB9AC00F37A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2113BDD289FB9AC00F37A44 /* AppDelegate.swift */; };
 		A2113BE0289FB9AC00F37A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2113BDF289FB9AC00F37A44 /* SceneDelegate.swift */; };
 		A2113BE2289FB9AC00F37A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2113BE1289FB9AC00F37A44 /* ViewController.swift */; };
 		A2113BE5289FB9AC00F37A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE3289FB9AC00F37A44 /* Main.storyboard */; };
 		A2113BE7289FB9AF00F37A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE6289FB9AF00F37A44 /* Assets.xcassets */; };
 		A2113BEA289FB9AF00F37A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2113BE8289FB9AF00F37A44 /* LaunchScreen.storyboard */; };
+		A21542CE28A3F5F8005C2858 /* jjanga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A21542CD28A3F5F8005C2858 /* jjanga.jpg */; };
 		A2B8B72F289FFB19006D2E5B /* space.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A2B8B72E289FFB19006D2E5B /* space.jpeg */; };
 		A2FFCF2A289FC260005D6538 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFCF29289FC260005D6538 /* Helper.swift */; };
-		EB0D70C4290DB583F8CC11EF /* Pods_FingerOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0636714810424745859328C /* Pods_FingerOfTheDay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04D9F05328A24C6D007807B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		41A5FEDAC46BFECDC771324E /* Pods-FingerOfTheDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerOfTheDay.debug.xcconfig"; path = "Target Support Files/Pods-FingerOfTheDay/Pods-FingerOfTheDay.debug.xcconfig"; sourceTree = "<group>"; };
-		4E102DC566745247C907E52A /* Pods-FingerOfTheDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerOfTheDay.release.xcconfig"; path = "Target Support Files/Pods-FingerOfTheDay/Pods-FingerOfTheDay.release.xcconfig"; sourceTree = "<group>"; };
+		855C3AC0218A2BD6B61E3022 /* Pods-FingerOfTheDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerOfTheDay.release.xcconfig"; path = "Target Support Files/Pods-FingerOfTheDay/Pods-FingerOfTheDay.release.xcconfig"; sourceTree = "<group>"; };
 		A2113BDA289FB9AC00F37A44 /* FingerOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerOfTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2113BDD289FB9AC00F37A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2113BDF289FB9AC00F37A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +31,11 @@
 		A2113BE6289FB9AF00F37A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2113BE9289FB9AF00F37A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2113BEB289FB9AF00F37A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21542CD28A3F5F8005C2858 /* jjanga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jjanga.jpg; sourceTree = "<group>"; };
 		A2B8B72E289FFB19006D2E5B /* space.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpeg; sourceTree = "<group>"; };
 		A2FFCF29289FC260005D6538 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		B0636714810424745859328C /* Pods_FingerOfTheDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerOfTheDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05C31ECFC0E7FCBD2123AB5 /* Pods_FingerOfTheDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerOfTheDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E244B9A64AB94DB249F9BDD7 /* Pods-FingerOfTheDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerOfTheDay.debug.xcconfig"; path = "Target Support Files/Pods-FingerOfTheDay/Pods-FingerOfTheDay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,28 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0D70C4290DB583F8CC11EF /* Pods_FingerOfTheDay.framework in Frameworks */,
+				233794E50B76C76B55C3792A /* Pods_FingerOfTheDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BD492DD3BE79E8AA63BE6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05C31ECFC0E7FCBD2123AB5 /* Pods_FingerOfTheDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3125367E3276C3767D0565CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41A5FEDAC46BFECDC771324E /* Pods-FingerOfTheDay.debug.xcconfig */,
-				4E102DC566745247C907E52A /* Pods-FingerOfTheDay.release.xcconfig */,
+				E244B9A64AB94DB249F9BDD7 /* Pods-FingerOfTheDay.debug.xcconfig */,
+				855C3AC0218A2BD6B61E3022 /* Pods-FingerOfTheDay.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7F4156F2C9060FE0D01DFA39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B0636714810424745859328C /* Pods_FingerOfTheDay.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A2113BD1289FB9AC00F37A44 = {
@@ -71,7 +73,7 @@
 				A2113BDC289FB9AC00F37A44 /* FingerOfTheDay */,
 				A2113BDB289FB9AC00F37A44 /* Products */,
 				3125367E3276C3767D0565CE /* Pods */,
-				7F4156F2C9060FE0D01DFA39 /* Frameworks */,
+				24BD492DD3BE79E8AA63BE6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +103,7 @@
 		A2B8B72D289FF325006D2E5B /* asset */ = {
 			isa = PBXGroup;
 			children = (
+				A21542CD28A3F5F8005C2858 /* jjanga.jpg */,
 				A2B8B72E289FFB19006D2E5B /* space.jpeg */,
 			);
 			path = asset;
@@ -123,11 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2113BEE289FB9AF00F37A44 /* Build configuration list for PBXNativeTarget "FingerOfTheDay" */;
 			buildPhases = (
-				C64F52A346C3737CAF3C1EB3 /* [CP] Check Pods Manifest.lock */,
+				FBE58C7B3219480DA8D4D60F /* [CP] Check Pods Manifest.lock */,
 				A2113BD6289FB9AC00F37A44 /* Sources */,
 				A2113BD7289FB9AC00F37A44 /* Frameworks */,
 				A2113BD8289FB9AC00F37A44 /* Resources */,
-				9A8BB5BDC71B1C88BE894B8B /* [CP] Embed Pods Frameworks */,
+				55E91881F86634EEE8B55E76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21542CE28A3F5F8005C2858 /* jjanga.jpg in Resources */,
 				A2113BEA289FB9AF00F37A44 /* LaunchScreen.storyboard in Resources */,
 				A2113BE7289FB9AF00F37A44 /* Assets.xcassets in Resources */,
 				A2B8B72F289FFB19006D2E5B /* space.jpeg in Resources */,
@@ -187,7 +191,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9A8BB5BDC71B1C88BE894B8B /* [CP] Embed Pods Frameworks */ = {
+		55E91881F86634EEE8B55E76 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,7 +208,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerOfTheDay/Pods-FingerOfTheDay-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C64F52A346C3737CAF3C1EB3 /* [CP] Check Pods Manifest.lock */ = {
+		FBE58C7B3219480DA8D4D60F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,7 +390,7 @@
 		};
 		A2113BEF289FB9AF00F37A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41A5FEDAC46BFECDC771324E /* Pods-FingerOfTheDay.debug.xcconfig */;
+			baseConfigurationReference = E244B9A64AB94DB249F9BDD7 /* Pods-FingerOfTheDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,7 +420,7 @@
 		};
 		A2113BF0289FB9AF00F37A44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E102DC566745247C907E52A /* Pods-FingerOfTheDay.release.xcconfig */;
+			baseConfigurationReference = 855C3AC0218A2BD6B61E3022 /* Pods-FingerOfTheDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

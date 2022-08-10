@@ -88,8 +88,13 @@ class ViewController: UIViewController {
         
         print("touchesBegan \(touchCount) touches")
         print("touchesBegan \(tapCount) taps")
-        print("touchesBegan \(point) taps")
+        print("touchesBegan \(point.x) taps")
+        print("touchesBegan \(point.y) taps")
         
+        var imageView : UIImageView
+        imageView  = UIImageView(frame:CGRect(x: point.x, y: point.y, width: 10, height: 30));
+        imageView.image = UIImage(named:"jjanga.jpg")
+        self.uiView.addSubview(imageView)
         
 //        print("fingerCount ", fingerCount)
     }

@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         oneTo10Slider.ticksListener = oneTo10Labels
         
         let longPress = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
-//             self.selectServerButton.addGestureRecognizer(longPress)
+        self.view.addGestureRecognizer(longPress)
         self.uiView.addGestureRecognizer(longPress)
 //            // 롱프레스 시간설정
         longPress.minimumPressDuration = 3
@@ -90,9 +90,7 @@ class ViewController: UIViewController {
     
     // 터치가 시작될 때 호출
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        centerLabel.fadeOut()
-        oneTo10Labels.fadeOut()
-        oneTo10Slider.fadeOut()
+        fadeOut()
         // 현재 발생한 터치 이벤트를 가지고 옴
         let touchCount = touches.count
         let touch = touches.first! as UITouch
@@ -147,9 +145,7 @@ class ViewController: UIViewController {
 
     // 화면에서 손가락을 떼엇을 때 호출
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        centerLabel.fadeIn()
-        oneTo10Labels.fadeIn()
-        oneTo10Slider.fadeIn()
+        fadeIn()
         
         // 현재 발생한 터치 이벤트를 가지고 옴
         let touchCount = touches.count
@@ -163,11 +159,21 @@ class ViewController: UIViewController {
         print(#function)
     }
     
-    // 화면에서 손가락을 떼엇을 때 호출
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    func fadeOut() {
+        centerLabel.fadeOut()
+        oneTo10Labels.fadeOut()
+        oneTo10Slider.fadeOut()
+    }
+    
+    func fadeIn() {
         centerLabel.fadeIn()
         oneTo10Labels.fadeIn()
         oneTo10Slider.fadeIn()
+    }
+    
+    // 화면에서 손가락을 떼엇을 때 호출
+    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        fadeIn()
         
         self.imageView1.removeFromSuperview()
         print(#function)
